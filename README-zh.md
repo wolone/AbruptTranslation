@@ -110,9 +110,11 @@ Base URL: https://generativelanguage.googleapis.com/v1beta
 ### DeepSeek
 ```
 API Key: sk-xxxxxxxxxxxxxxxx
-Base URL: https://api.deepseek.com/v1
-模型: deepseek-chat / deepseek-coder
+Base URL: https://api.deepseek.com/chat/completions
+模型: deepseek-v4-flash / deepseek-v4-pro
 ```
+
+也可以在插件设置的“选择平台”中直接选择 DeepSeek，Base URL 会自动填充。
 
 ### 智谱AI (GLM)
 ```

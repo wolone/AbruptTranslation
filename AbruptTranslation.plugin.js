@@ -27,6 +27,11 @@ module.exports = class AbruptTranslation {
                 name: "AIHUBMIX",
                 baseUrl: "https://aihubmix.com/v1/chat/completions",
                 displayName: "AIHUBMIX"
+            },
+            deepseek: {
+                name: "DeepSeek",
+                baseUrl: "https://api.deepseek.com/chat/completions",
+                displayName: "DeepSeek"
             }
         };
 
@@ -628,6 +633,7 @@ module.exports = class AbruptTranslation {
                     <option value="">自定义API</option>
                     <option value="siliconflow">硅基流动 (SiliconFlow)</option>
                     <option value="aihubmix">AIHUBMIX</option>
+                    <option value="deepseek">DeepSeek</option>
                 </select>
             </div>
 

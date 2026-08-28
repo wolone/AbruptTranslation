@@ -112,9 +112,11 @@ Model: gemini-pro / gemini-1.5-flash / gemini-1.5-pro
 ### DeepSeek
 ```
 API Key: sk-xxxxxxxxxxxxxxxx
-Base URL: https://api.deepseek.com/v1
-Model: deepseek-chat / deepseek-coder
+Base URL: https://api.deepseek.com/chat/completions
+Model: deepseek-v4-flash / deepseek-v4-pro
 ```
+
+You can also select DeepSeek from the plugin settings. Its Base URL will be filled automatically.
 
 ### Zhipu AI (GLM)
 ```
